@@ -1,0 +1,9 @@
+
+body {
+
+  background-color: #f0f0f0; /* Color de fondo */
+  color: #333333; /* Color del texto */
+  font-family: Arial, sans-serif; /* Fuente del texto */
+  margin: 0; /* Elimina el margen por defecto */
+  padding: 20px; /* Agrega un poco de espacio alrededor del contenido */
+}

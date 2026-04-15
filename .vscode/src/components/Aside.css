@@ -1,0 +1,24 @@
+.aside {
+  background: #0c0c0c;
+  padding: 32px;
+  color: #dffcff;
+}
+
+.aside h3 {
+  margin-top: 0;
+  color: #00f7ff;
+}
+
+.aside ul {
+  margin: 12px 0 0;
+  padding-left: 18px;
+}
+
+.aside a {
+  color: #f7ff7a;
+  text-decoration: none;
+}
+
+.aside a:hover {
+  color: #ff2bd6;
+}

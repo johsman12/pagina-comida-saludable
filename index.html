@@ -1,43 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>comida Saludable</title>
-    <link rel="stylesheet" href="/estilo.css">
+    <title>Nutrick - Comida Saludable</title>
+    <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
 <header class="encabezado">
   <div class="navbar">
-    <h1>Nutrik</h1>
-    <p>TU SALUD EMPIEZA AQUI</p>
+    <h1>Nutrick</h1>
+    <p>TU SALUD EMPIEZA AQUÍ</p>
   </div>
   
   <input class="buscador" type="text" placeholder="Buscar producto">
 
-  <div class="iconos1">
+  <div class="iconos1" style="cursor: pointer;" onclick="window.location.href='login.html'">
     <img class="user" src="/Imagenes/avatar.png" alt="usuario">
     <p class="puser">Iniciar Sesión</p>
-
   </div>
+
   <div class="iconos2">
         <img class="carrito" src="/Imagenes/carrito-de-compras.png" alt="carrito">
   </div>
-  
-
 </header>
 
 <nav>
-  <button>Inicio</button>
+  <button onclick="window.location.href='index.html'">Inicio</button>
   <button>Comprar</button>
-  <button>Iniciar Sesión</button>
+  <button onclick="window.location.href='login.html'">Iniciar Sesión</button>
 </nav>
 
 <div class="contenedor">
   <div class="titulo">Productos Saludables</div>
 
   <div class="productos">
-
     <div class="producto">
       <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=300" alt="Ensalada">
       <h3>Ensalada Fresh</h3>
@@ -65,17 +62,15 @@
       <p>$12.000</p>
       <button>Comprar</button>
     </div>
-
   </div>
 </div>
 
 <footer>
-  <br><br>
-   <h2>NUTRICK</h2>
+    <br><br>
+    <h2>NUTRICK</h2>
     <p>© 2026 Comida Saludable</p>
     <p>© 2026 - Página creada por NUTRICK S.A</p>
     <br><br>
-  
 </footer>
 
 </body>

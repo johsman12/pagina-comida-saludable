@@ -1,0 +1,43 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.app > * {
+  width: 100%;
+  max-width: 1000px;
+  margin: 20px auto;
+}
+
+.app .navbar {
+  background: #0c0c0c;
+  padding: 20px;
+  color: #f3dbff;
+}
+
+.app .main {
+  background: #101010;
+  padding: 20px;
+  color: #f4deff;
+}
+
+.app .section {
+  background: #1eff11;
+  padding: 20px;
+  color: #f3dbff;
+}
+
+.app .aside {
+  background: #101010;
+  padding: 20px;
+  color: #f4deff;
+}
+
+.app .footer {
+  background: #0c0c0c;
+  padding: 20px;
+  color: #f3dbff;
+  text-align: center;
+}
